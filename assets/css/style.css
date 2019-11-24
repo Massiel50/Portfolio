@@ -1,0 +1,58 @@
+/* *{
+    box-sizing: border-box;
+} */
+
+html{
+    height: 100%;
+    position: relative;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url("https://wallpaperplay.com/walls/full/1/a/1/75448.jpg");
+    margin: 0 auto;
+}
+ /* .container{
+    width: 960px;
+} */
+.headerDiv{
+    background-color: white;
+    height: 67px;
+    border-bottom: solid 2px brown;
+    width: 960px;
+    margin: 0 auto;
+}
+/* .nav justify-content-end{
+    text-decoration: none;
+    color: #cccccc;
+    margin-left: 20px;
+    font-size: 1;
+}*/
+
+
+#h1{
+    background-color: #4aaaa5;
+    color: white;
+    margin: 0;
+    float: left;
+    padding: 15px 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/*
+h2{
+    margin: 0;
+    color: teal;
+    border-bottom:  1px solid gray;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+}
+
+section{
+    background-color: white;
+    width: 960px;
+    margin: 0 auto;
+    border: solid 1px #cccccc;
+    line-height: 1.5mm;
+    font-family: Arial, Helvetica, sans-serif;
+    
+} */ 
