@@ -38,8 +38,6 @@ a {
     font-size: 18px;
     padding-top: 70px;
 }
-   
-
 .headerDiv{
     width: 100%;
 }
@@ -58,5 +56,9 @@ h2{
     color: brown;
     border-bottom:  1px solid gray;
     margin-bottom: 30px;
+}
+
+.card{
+    width: 960px;
 }
 
