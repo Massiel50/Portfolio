@@ -15,12 +15,15 @@ body{
  /* .container{
     width: 960px;
 } */
-.headerDiv{
+
+header{
     background-color: white;
-    height: 67px;
-    border-bottom: solid 2px brown;
     width: 960px;
+    background-color: white;
+    border-bottom: solid 2px pink;
+    height: 67px;
     margin: 0 auto;
+    margin
 }
 /* .nav justify-content-end{
     text-decoration: none;
@@ -38,7 +41,7 @@ body{
     padding: 15px 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-/*
+
 h2{
     margin: 0;
     color: teal;
@@ -50,9 +53,10 @@ h2{
 section{
     background-color: white;
     width: 960px;
+    max-height: 650px;
     margin: 0 auto;
-    border: solid 1px #cccccc;
-    line-height: 1.5mm;
+    border: solid 1px teal;
+    line-height: 5mm;
     font-family: Arial, Helvetica, sans-serif;
     
-} */ 
+}
