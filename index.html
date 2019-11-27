@@ -47,7 +47,7 @@
     
     <div class="col-sm-5 Pic"> 
 
-             <img src="C:\Users\massi\OneDrive\Documents\UCF\LocalClassRepo\Homework\02-CSS-Bootstrap\bootstrap-portfolio\assets\Images\ME2.jpg" style= "width: 380px; height: 450px" alt="..." class="rounded-circle">
+             <img src="C:\Users\massi\OneDrive\Documents\UCF\LocalClassRepo\Homework\02-CSS-Bootstrap\bootstrap-portfolio\assets\Images\ME2.jpg" onmouseup="playAudio()" style= "width: 380px; height: 450px" alt="..." class="rounded-circle">
     
             </div>
 
@@ -146,5 +146,15 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+ 
+ <script type="text/Javascript">
+    var soundImage = new Audio(src="assets/Images/Pokemon.mp3")
+    function playAudio(){
+      console.log(soundImage)
+     soundImage.play()
+     
+    }
+ 
+ </script>
   </body>
 </html>
