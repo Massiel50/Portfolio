@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylessheet" href="assets/css/style.css">
-    <title>Document</title>
+    <title>Bootstrap Portfolio</title>
 </head>
 <!DOCTYPE html>
 <html lang="en">
@@ -47,7 +47,7 @@
     
     <div class="col-sm-5 Pic"> 
 
-             <img src="C:\Users\massi\OneDrive\Documents\UCF\LocalClassRepo\Homework\02-CSS-Bootstrap\bootstrap-portfolio\assets\Images\ME2.jpg" onmouseup="playAudio()" style= "width: 380px; height: 450px" alt="..." class="rounded-circle">
+             <img src="C:\Users\massi\OneDrive\Documents\UCF\LocalClassRepo\Homework\02-CSS-Bootstrap\bootstrap-portfolio\assets\Images\ME2.jpg" onmouseup="playAudio()" onmousedown="muteAudio()" style= "width: 380px; height: 450px" alt="..." class="rounded-circle">
     
             </div>
 
@@ -152,8 +152,14 @@
     function playAudio(){
       console.log(soundImage)
      soundImage.play()
-     
     }
+    function muteAudio(){
+      console.log(soundImage)
+     soundImage.mute= true;
+
+    }
+   
+
  
  </script>
   </body>
