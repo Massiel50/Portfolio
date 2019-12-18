@@ -3,30 +3,34 @@ html{
     height: 100%;
     position: relative;
 }
-
+/*  */
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("../Images/Cherry-blossom.jpg");
+    /* background-image: url("../Images/Cherry-blossom.jpg");  */
     margin: 0 auto;
+    background-image: url("/bootstrap-portfolio/assets/Images/Sakura-giphy.gif");
+    background-size: cover;
 }
  .container{
     width: 980px;
 }
 
-/* header{
-    background-color: white;
-    width: 1000px;
-    background-color: white;
-    border-bottom: solid 2px pink;
-    height: 67px;
-    margin: 0 auto;
-} */
+ .headerDiv{
+    text-align: center;
+ }
+
 a {
     text-decoration: none;
-    color: sienna;
+    color: white;
     margin-left: 20px;
-    font-size: 1;
+    font-size: 30px;
+    text-shadow: 1px 1px 5px #333;
+    transition: color .5s;
 }
+a:hover {
+    color: sienna;
+}
+
 .text{
     font-weight: bold;
     font-family: 'Marck Script', cursive;
@@ -47,18 +51,21 @@ a {
 }
 
 h2{
-    color: sienna;
     margin: auto;
+    color: white;
+    text-shadow: 1px 1px 5px #333;
 }
 h3{
-    color: sienna;
     margin: auto;
     margin-left: -80px;
+    color: white;
+    text-shadow: 1px 1px 5px #333;
 }
 h4{
-    color: sienna;
     margin: auto;
     margin-top: 20px;
+    color: white;
+    text-shadow: 1px 1px 5px #333;
 }
 p{
     text-indent: 10px;
@@ -71,4 +78,30 @@ p{
     margin-top: 50px;
 }
 
+.btnColor{
+    font-size: 25px;
+    font-weight: bold;
+}
 
+.btn-danger {
+    color: #fff;
+    background-color: sienna;
+    border-color: sienna;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #b03254;
+    border-color: #b03254;
+}
+    
+label {
+    display: inline-block;
+    margin-bottom: .5rem;
+    color: white;
+    text-shadow: 1px 1px 5px #333;
+}
+.infoContainer{
+    color: white;
+    text-shadow: 1px 1px 5px #333;
+}
