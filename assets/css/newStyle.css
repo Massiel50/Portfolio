@@ -3,27 +3,31 @@
     height: 900px;
 }
 
-.nav {
-    background-color: black;
-    padding-right: 5px;
-    height: 900px;
-}
 .frontPic {
     background-image: url("https://cdn.pixabay.com/photo/2017/10/13/16/06/girl-2848057_960_720.jpg");
     padding-left: 5px;
     height: 400px;
 }
-/* .mainPage{
-    float: left;
-} */
+.profession {
+    float: right;
+    margin-right: 2%;
+    font-weight: bolder;
+}
 .bioText {
     color: white;
+    max-width: 95%;
+    text-align: center;
+}
+p {
+    margin-left: 3%;
 }
 body {
-    background-image: linear-gradient(black, yellow);
+    background-image: linear-gradient(black, gray);
 }
 
 .card {
-    height: 40%;
-
+     height: 80%;
+     /* margin-right: .5%; */
+     float: center;
+     background-color: transparent;
 }
